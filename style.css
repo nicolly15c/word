@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+    background-color: #072654;
+    display:flex ;
+    justify-content: space-around;
+     align-items: center;
+     padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 40%;
+
+}
+.robo{
+   width: 8%;
+}
+
+.imagem-planeta{
+    width: 20%;
+}
+
+.sobre{
+    background-image: linear-gradient(#072654,#005CE7);
+    color: white
+}
