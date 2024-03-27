@@ -17,7 +17,7 @@
 
 }
 .robo{
-   width: 8%;
+   width: 13%;
 }
 
 .imagem-planeta{
@@ -25,6 +25,23 @@
 }
 
 .sobre{
-    background-image: linear-gradient(#072654,#005CE7);
-    color: white
+    background-image: linear-gradient(#072654,#000000);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
+
+.sobre-div-conteudo{
+    width: 35%;
+}
+
+.sobre-texto-um{
+    font-family: 'Times New Roman', Times, serif
+}
+
+.titulo-sobre{
+    padding: 24px 0;
+}
+
