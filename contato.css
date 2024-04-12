@@ -1,4 +1,19 @@
-.sobre{
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.triangulo{
+    width: 20%;
+}
+
+
+
+
+
+
+
+.local{
     background-image: linear-gradient(#072654,#000000);
     color: white;
     display: flex;
