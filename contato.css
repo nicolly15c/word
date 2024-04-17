@@ -7,13 +7,21 @@
     width: 20%;
 }
 
-
-
-
-
-
-
 .local{
+    background-color: #072654;
+    display:flex ;
+    justify-content: space-around;
+     align-items: center;
+     padding: 24px 0;
+}
+
+.sobre-div-localização{
+    width: 35%;
+}
+
+
+
+.contato{
     background-image: linear-gradient(#072654,#000000);
     color: white;
     display: flex;
