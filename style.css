@@ -1,12 +1,14 @@
 body {
     background: linear-gradient(#072654, #000000);
 }
-.cabecalho-imagem{
-    width: 60%;
-    height: 200px
-    }
+.cabecalho-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%; 
+  }
 .robo{
-   width: 11%;
+   width: 12%;
 }
 .imagem-planeta{
     width: 30%;
@@ -14,19 +16,18 @@ body {
 .sobre-div-conteudo{
     width: 50%;
 }
-.titulo-sobre{
-    padding: 24px 0;
-}
+
 .sobre-div-conteudo{
     width: 45%;
 }
 .sobre-texto-um{
-    font-family: Impact, 'fantasy';
-    size: 50%;
+    font-family: Impact;
+    width: 100;
 }
 .titulo-sobre{
     padding: 10px 0;
-    font-family: 'fantasy'
+    font-family: Impact;
+    
 }
 .cabecalho-imagem {
     display:inline-flex;
