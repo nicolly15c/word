@@ -1,9 +1,44 @@
-body {
-    background: linear-gradient(#072654, #000000); /* Degradê de #072654 para #000000 */
+*{
+    margin: 0;
+    padding: 0;
 }
-.triangulo{
-    width: 20%;
+body{
+    background: linear-gradient(#072654, #000000);
+    color: white;
+    font-size: 200%;
 }
 .imagem-cabecalho{
+    width: 100%;
+    display: flex;
     justify-content: center;
+    padding: 35px 0;
+}
+.triangulo{
+    width: 38%;
+    height: 500px 700;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 181%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 180%;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 140%;
 }
