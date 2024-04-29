@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#072654, #000000);
+    color: white;
+}
+header{
+    text-align: center;
+    font-size: 230%;
+}
+.imagem-1{
+    display: flex;
+    padding: 35px 0;
+}
+.imagem-foto1{
+    width: 20%;
+}
+.texto-imagem-1{
+    width: 30%;
+}
+.video-1{
+    height:300px;
+    display: flex;
+}
+.data-video-1{
+    text-align: center;
+}
+
+
+.imagem-2{
+    display: flex;
+    padding: 35px 0S;
+}
+.imagem-foto2{
+    width: 20%;
+}
+.texto-imagem-2{
+    width: 20%;
+}
