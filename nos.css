@@ -1,23 +1,29 @@
-body {
-    background: linear-gradient(#072654, #000000);
+body { 
+
+    background: linear-gradient(#072654, #02033b);
 }
 .estudantes-titulo{
     text-align: center;
     color: white;
-    font-family: Impact;
-    padding: 24px 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px ;
 }
-.estudantes-img{
-    width: 170px;
-    height: 170px;
-}
+.estudante-img{
+    width: 150px;
+    height: 150px;
+    border: 6px solid black;
+    border-radius: 8px;
+} 
 .estudante-icone{
-    width: 48px;  
+    width: 40px; 
+    padding: 4px 10px;
 }
-.estudantes-nome{
+.estudante-nome{
     text-align: center;
     color: white;
-    font-family: Impact;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid black;
+    border-radius: 8px;
 }
 .estudantes-div{
     text-align: center;
@@ -25,4 +31,14 @@ body {
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 90px;
+    padding: 30px;
+
 }
