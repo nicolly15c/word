@@ -8,11 +8,12 @@ body {
 
 
 .robotica {
-    width: 90%;
-    height: 100%;
     display: flex;
-    justify-content: right;
-    align-items: center;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50%;; /* Preenche a altura da tela */
+
+   
 }
 .imagem-robotica {
     width: 40%;
@@ -25,6 +26,7 @@ body {
     width: 50%;
 }
 .titulo-sobre{
+    font-size:xx-large ;
     font-family: "Roboto", "Arial", "sans-serif";
     color:aliceblue;
     
@@ -60,7 +62,7 @@ body {
 .icones {
     position: absolute;
     left: 10px; /* Distância da borda esquerda da janela do navegador */
-    bottom: -15%; /* Distância da borda inferior da janela do navegador */
+    bottom: -30%; /* Distância da borda inferior da janela do navegador */
 }
 .estudante-icone {
     width: 10%; /* Largura das imagens */

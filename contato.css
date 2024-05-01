@@ -16,6 +16,8 @@ body{
 .triangulo{
     width: 38%;
     height: 500px 700;
+    border: 5px solid black;
+    border-radius: 5px;
 }
 h1{
     display: flex;
