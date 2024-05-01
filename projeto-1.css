@@ -1,53 +1,100 @@
-*{
+body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-}
-body{
     background: linear-gradient(#072654, #000000);
-    color: white;
 }
-header{
-    text-align: center;
-    font-size: 230%;
-    padding: 35px 0;
-}
-.imagem-1{
-    display: flex;
 
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
-.imagem-foto1{
-    width: 25%;
+
+.projeto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex-direction: row;
 }
-.texto-imagem-1{
-    width: 35%;
+
+.imagem-1 {
+    background-color: rgb(157, 165, 209);
+    border: 4px solid #000;
+    padding: 60px;
+    max-width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.imagem-foto1 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 250px;
+}
+.texto-imagem-1 {
+    color: #000000;
+    margin-top: 10px;
 }
 .video-1{
-    height:300px;
-    width: 50%;
-    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 250px;
 }
-.data-video-1{
+
+
+
+.texto-video-1 {
+    margin-top: 10px;
+}
+
+.data-1{
+    margin-top: 20px;
+    text-align: right;
+    font-style: italic;
+}
+.imagem-2 {
+    background-color: rgb(157, 165, 209);
+    border: 4px solid #000;
+    padding: 60px;
+    max-width: 250px;
+    margin: 10px;
     text-align: center;
 }
-.data-imagem-1{
-    padding: 40px 0;
-}
 
-
-.imagem-2{
-    display: flex;
+.imagem-foto2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 250px;
 }
-.imagem-foto2{
-    width: 25%;
-}
-.texto-imagem-2{
-    width: 25%;
+.texto-imagem-2 {
+    color: #000000;
+    margin-top: 10px;
 }
 .video-2{
-    height: 400px;
-    width: 550px;
-    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 250px;
 }
-.data-video-2{
-    text-align: center;
+
+
+
+.texto-video-2 {
+    margin-top: 10px;
+}
+
+.data-2{
+    margin-top: 20px;
+    text-align: right;
+    font-style: italic;
 }
