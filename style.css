@@ -1,40 +1,69 @@
 body {
     background: linear-gradient(#072654, #000000);
 }
-.cabecalho-imagem{
-    width: 60%;
-    height: 200px
-    }
 .robo{
-   width: 11%;
+    width: 10%;
+    align-items: start;
 }
-.imagem-planeta{
-    width: 30%;
+
+
+.robotica {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.imagem-robotica {
+    width: 40%;
+    height: 40%;
+
+    border: 3px solid black;
+    border-radius: 8px;
 }
 .sobre-div-conteudo{
     width: 50%;
 }
 .titulo-sobre{
-    font-family: Impact,'fantasy';
+    font-family: "Roboto", "Arial", "sans-serif";
     color:aliceblue;
     
 }
 .sobre-div-conteudo{
-    width: 45%;
+    width: 50%;
 }
-.sobre-texto-um{
+.sobre-texto{
+    font-size: 130%;
     color: aliceblue;
     display: flex;
     justify-content: center;
-    font-family: Impact, 'fantasy';
+    font-family: "Helvetica Neue", Arial, sans-serif;
     
+}.container {
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 200px; 
 }
 .cabecalho-imagem {
-    display:inline-flex;
-    align-items: center;
-  }
-  
-  .cabecalho-imagem {
-    max-width: 100%; 
-    max-height: 100%;
-  }
+    max-width: 50%; 
+    height: auto;
+}
+.robo {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    max-width: 50%; 
+    height: auto;
+}
+.icones {
+    position: absolute;
+    left: 10px; /* Distância da borda esquerda da janela do navegador */
+    bottom: -15%; /* Distância da borda inferior da janela do navegador */
+}
+.estudante-icone {
+    width: 10%; /* Largura das imagens */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-bottom: 10px; /* Espaçamento entre as imagens */
+}
