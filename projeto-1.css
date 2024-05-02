@@ -11,6 +11,9 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+.projetos{
+    display: flex-inline;
+}
 
 .projeto {
     display: flex;
