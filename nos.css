@@ -1,4 +1,8 @@
-body { 
+.seçao{
+    height: auto;
+    width: auto;
+        
+}body { 
 
     background: linear-gradient(#072654, #02033b);
 }
@@ -38,7 +42,10 @@ body {
 }
 
 .rodape-imagem{
-    height: 90px;
-    padding: 30px;
+    
+    padding: 50px;
+    height:160px;
+    border: 6px solid black;
+    border-radius: 8px;
 
 }

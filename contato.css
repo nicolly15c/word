@@ -44,3 +44,11 @@ h4{
     text-align: center;
     font-size: 140%;
 }
+.rodape-imagem{
+    
+    padding: 50px;
+    height:160px;
+    border: 6px solid black;
+    border-radius: 8px;
+
+}

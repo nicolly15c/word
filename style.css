@@ -1,4 +1,4 @@
-.seçao   {
+.secao   {
     height: auto;
     width: auto;
         
@@ -13,8 +13,8 @@
 
 .robotica {
     display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo à direita */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: flex-end; 
+    align-items: center; 
     
 
    
@@ -46,8 +46,8 @@
 }
 .icones {
   
-    left: 10px; /* Distância da borda esquerda da janela do navegador */
-    margin-top: -11%; /* Distância da borda inferior da janela do navegador */
+    left: 10px; 
+    margin-top: -11%; 
 }
 .sobre-div-conteudo{
     width: 50%;
@@ -82,7 +82,7 @@
 }
 
 .estudante-icone {
-    width: 10%; /* Largura das imagens */
-    height: auto; /* Altura automática para manter a proporção */
-    margin-bottom: 10px; /* Espaçamento entre as imagens */
+    width: 10%; 
+    height: auto;
+    margin-bottom: 10px; 
 }
