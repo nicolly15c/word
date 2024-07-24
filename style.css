@@ -1,88 +1,26 @@
-.secao   {
-    height: auto;
-    width: auto;
-        
-}body{
-    background: linear-gradient(#072654, #000000);
-}
-.robo{
-    width: 10%;
-    align-items: start;
+html {
+    min-height: 100%;
 }
 
-
-.robotica {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
-    
-
-   
-}
-.imagem-robotica {
-    width: 40%;
-    height: 40%;
-    margin: 1%;
-    border: 3px solid black;
-    border-radius: 8px;
+body{
+    background:linear-gradient(#ffffff, #997e7e);
 }
 
-.login{
-    align-items: start;
-    width: 80%;
+.cabecalho{
     display: flex;
-    justify-content: flex-end;
-}
-.sobre-div-conteudo{
-    margin-left: 2%;
-    margin-top: 3%;
-    text-align: left;
-}
-.titulo-sobre{
-    font-size:xx-large ;
-    font-family: "Roboto", "Arial", "sans-serif";
-    color:aliceblue;
-    
-}
-.icones {
-  
-    left: 10px; 
-    margin-top: -11%; 
-}
-.sobre-div-conteudo{
-    width: 50%;
-}
-.image-icones{
-    display: flexbox;
-}
-.sobre-texto{
-    font-size: 130%;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    
-}.container {
-    position: relative; 
-    display: flex;
-    align-items: center; 
     justify-content: center; 
-    height: 200px; 
-}
-.cabecalho-imagem {
-    max-width: 50%; 
-    height: auto;
-}
-.robo {
-    position: absolute; 
-    left: 0; 
-    top: 0; 
-    max-width: 50%; 
-    height: auto;
+    align-items: center; 
 }
 
-.estudante-icone {
-    width: 10%; 
-    height: auto;
-    margin-bottom: 10px; 
+.sobre-titulo{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px ;
+}
+
+.video{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
