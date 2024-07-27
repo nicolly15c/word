@@ -1,26 +1,71 @@
-html {
-    min-height: 100%;
+body {
+    background: linear-gradient(#072654, #000000);
+}
+.robo{
+    width: 10%;
+    align-items: start;
 }
 
-body{
-    background:linear-gradient(#ffffff, #997e7e);
-}
 
-.cabecalho{
+.robotica {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50%;; /* Preenche a altura da tela */
 
-.sobre-titulo{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding: 30px ;
+   
 }
+.imagem-robotica {
+    width: 40%;
+    height: 40%;
 
-.video{
+    border: 3px solid black;
+    border-radius: 8px;
+}
+.sobre-div-conteudo{
+    width: 50%;
+}
+.titulo-sobre{
+    font-size:xx-large ;
+    font-family: "Roboto", "Arial", "sans-serif";
+    color:aliceblue;
+    
+}
+.sobre-div-conteudo{
+    width: 50%;
+}
+.sobre-texto{
+    font-size: 130%;
+    color: aliceblue;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    
+}.container {
+    position: relative; 
+    display: flex;
     align-items: center; 
+    justify-content: center; 
+    height: 200px; 
+}
+.cabecalho-imagem {
+    max-width: 50%; 
+    height: auto;
+}
+.robo {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    max-width: 50%; 
+    height: auto;
+}
+.icones {
+    position: absolute;
+    left: 10px; /* Distância da borda esquerda da janela do navegador */
+    bottom: -30%; /* Distância da borda inferior da janela do navegador */
+}
+.estudante-icone {
+    width: 10%; /* Largura das imagens */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-bottom: 10px; /* Espaçamento entre as imagens */
 }
