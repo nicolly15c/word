@@ -22,6 +22,12 @@ body {
     border: 3px solid black;
     border-radius: 8px;
 }
+.login{
+    align-items: start;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
 .sobre-div-conteudo{
     width: 50%;
 }
